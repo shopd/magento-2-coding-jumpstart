@@ -16,6 +16,7 @@ class Index implements HttpGetActionInterface
 
     public function execute(): Page
     {
-        return $this->pageFactory->create();
+        // return $this->pageFactory->create();
+        die("Jumpstart!");
     }
 }
